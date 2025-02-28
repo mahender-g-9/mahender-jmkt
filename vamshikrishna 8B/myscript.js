@@ -1,0 +1,1 @@
+alert('this is retrived from myjs file');

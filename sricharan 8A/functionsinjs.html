@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>Functions</title>
+</head>
+<body>
+<script>
+function total(marks1, marks2, marks3){
+var totalmarks = marks1+marks2+marks3;
+return totalmarks;
+}
+var student1_marks = [80,90,76], student2_marks = [45,67,87], student3_marks=[88,75,73];
+var student1_total = total(student1_marks[0], student1_marks[1], student1_marks[2]);
+var student2_total = total(student2_marks[0], student2_marks[1], student2_marks[2]);
+var student3_total = total(student3_marks[0], student3_marks[1], student3_marks[2]);
+document.write(' Student 1 total marks: '+student1_total+ '<br> Student 2 total marks: '+student2_total+ '<br> Student 3 total marks : '+student3_total);
+</script>
+</body>
+</html>

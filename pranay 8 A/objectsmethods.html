@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<title>Object methods </title>
+</head>
+<body>
+<script>
+var student_1 = {
+name : 'Alex',
+english : 82,
+maths : 92,
+science : 84,
+total: function(){
+return this.english+this.maths+this.science;
+}
+};
+var totalmarks = student_1.total();
+document.write('Total marks of the student are '+ totalmarks);
+</script>
+</body>
+</html>
